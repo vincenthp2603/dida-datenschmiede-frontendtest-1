@@ -1,0 +1,38 @@
+.form {
+    margin: auto
+}
+
+.inputSection, .answerSection {
+    border: 1px solid #000;
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin: 10px auto;
+    box-shadow: 2px 2px 5px gray;
+    position: relative;
+}
+
+.inputArea {
+    border: none;
+    padding: 20px 0;
+}
+
+.inputArea::-webkit-input-placeholder { 
+    font-size: 20px;
+}
+
+.inputAreaTitle {
+    text-align: left;
+    margin: 0;
+    position: absolute;
+    margin-bottom: 5px;
+}
+
+.processBtn {
+    width: 40%;
+    height: 60px;
+    margin: 20px auto;
+}
+
+.hidden {
+    display: none;
+}

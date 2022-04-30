@@ -1,0 +1,41 @@
+.answerSection {
+    border: 1px solid #000;
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin: 10px auto;
+    box-shadow: 2px 2px 5px gray;
+    position: relative;
+    background-color: cornflowerblue;
+    color: #fff;
+    text-align: left;
+    display: block;
+    min-height: 150px;
+}
+
+.answerSection h6 {
+    text-align: left;
+}
+
+.rateBtnCol {
+    text-align: center;
+}
+
+.rateBtn {
+    color: #fff;
+}
+
+.rateBtn:hover {
+    cursor: pointer;
+}
+
+.selectedRateOption_yes {
+    color: #00B74A;
+}
+
+.selectedRateOption_no {
+    color: salmon;
+}
+
+.answerSegment {
+    margin-bottom: 20px;
+}
